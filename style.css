@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('./fonts/gilroy-bold.eot');
+    src: local('вє'), url('fonts/gilroy-bold.woff') format('woff'), url('fonts/gilroy-bold.ttf') format('truetype'), url('fonts/gilroy-bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-medium';
+    src: url('./fonts/gilroy-medium.eot');
+    src: local('вє'), url('fonts/gilroy-medium.woff') format('woff'), url('fonts/gilroy-medium.ttf') format('truetype'), url('fonts/gilroy-medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-regular';
+    src: url('./fonts/gilroy-regular.eot');
+    src: local('вє'), url('fonts/gilroy-regular.woff') format('woff'), url('fonts/gilroy-regular.ttf') format('truetype'), url('fonts/gilroy-regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-semibold';
+    src: url('./fonts/gilroy-semibold.eot');
+    src: local('вє'), url('fonts/gilroy-semibold.woff') format('woff'), url('fonts/gilroy-semibold.ttf') format('truetype'), url('fonts/gilroy-semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* Fonts */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 40px 200px 0 200px;
+}
+
+.headerMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNav {
+    display: flex;
+    list-style: none;
+}
+
+.elemHeaderNav {
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+    margin-right: 34px;
+}
+
+.elemHeaderNav:hover {
+    color: #F25822;
+}
+
+.elemHeaderNavWidthBackground {
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;
+    transition: 0.1s linear;
+    background-color: #F25822;
+    border-radius: 30px;
+    padding: 12px 27px 13px 27px;
+}
+
+.elemHeaderNavWidthBackground:hover {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
