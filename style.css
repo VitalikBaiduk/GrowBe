@@ -40,7 +40,7 @@
 }
 
 header {
-    padding: 40px 200px 0 200px;
+    padding: 32px 300px 0 300px;
 }
 
 .headerMain {
@@ -50,6 +50,11 @@ header {
     align-items: center;
 }
 
+.logoGrowBe {
+    width: 112.3px;
+    height: 32px;
+}
+
 .headerNav {
     display: flex;
     list-style: none;
@@ -57,12 +62,12 @@ header {
 
 .elemHeaderNav {
     font-family: Gilroy-SemiBold;
-    font-size: 14px;
+    font-size: 11.2px;
     line-height: 16px;
     text-decoration: none;
     color: black;
     transition: 0.1s linear;
-    margin-right: 34px;
+    margin-right: 27.2px;
 }
 
 .elemHeaderNav:hover {
@@ -71,16 +76,393 @@ header {
 
 .elemHeaderNavWidthBackground {
     font-family: Gilroy-SemiBold;
-    font-size: 14px;
+    font-size: 11.2px;
     line-height: 16px;
     text-decoration: none;
-    color: white;
+    color: #F25822;
     transition: 0.1s linear;
-    background-color: #F25822;
+    background: rgba(242, 88, 34, 0.25);
     border-radius: 30px;
-    padding: 12px 27px 13px 27px;
+    padding: 9.6px 21.6px 9.4px 21.6px;
 }
 
 .elemHeaderNavWidthBackground:hover {
+    color: #FFFFFF;
+    background-color: #F25822;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.firstDepartment {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 0 258.4px;
+}
+
+.firstSectionFirstDepartment {
+    width: 417.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 66.4px;
+}
+
+.titleFirstDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 13.6px;
+}
+
+.textFirstDepartment {
+    width: 372.8px;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #888888;
+    margin-bottom: 26.6px;
+}
+
+.bottomFirstDepartment {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstBottom {
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    /* color: #FFFFFF; */
+    background: rgba(242, 88, 34, 0.25);
+    color: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    transition: 0.1s linear;
+    padding: 12px 28.8px 12.8px 28.8px;
+}
+
+.firstBottom:hover {
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.watchVideo {
+    display: flex;
+    align-items: center;
+}
+
+.iconWatchVideo {
+    width: 24px;
+    height: 24px;
+}
+
+.secondBottom {
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-left: 15px;
+}
+
+.imgFirstDep {
+    width: 674.4px;
+    height: 464px;
+}
+
+.firstImgForBack {
+    width: 43px;
+    height: 43px;
+    position: relative;
+    right: 1220px;
+    bottom: 90px;
+}
+
+.secondImgForBack {
+    width: 251.2px;
+    height: 60.2px;
+    position: relative;
+    right: 1170px;
+    bottom: 55px;
+}
+
+.thirdImgForBack {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 970px;
+    bottom: 165px;
+}
+
+.fourthImgForBack {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 1040px;
+    top: 80px;
+}
+
+.sectionWidthLogo {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 79.2px; */
+    margin: 79.2px auto 0;
+}
+
+.elemSectionWidthLogo {
+    width: 128px;
+    height: 40px;
+    margin-right: 38.4px;
+}
+
+.secondDepartment {
+    width: 1440px;
+    height: 432px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+    margin-top: 75.2px;
+    margin: 75.2px auto 0;
+}
+
+.elementsecondDepartment {
+    width: 100%;
+    height: 432px;
+    position: relative;
+    right: 100px;
+}
+
+.firstSectionSecondDepartment {
+    width: 412px;
+}
+
+.titleSecondDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 39px;
+    line-height: 42.4px;
+    margin-bottom: 16px;
+}
+
+.textSecondDepartment {
+    font-family: Gilroy-Regular;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    color: #666666;
+    margin-bottom: 28px;
+}
+
+.macbook {
+    width: 640px;
+    height: 480px;
+}
+
+.mainSectionSecondDepartment {
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.thirdDepartment {
+    padding: 80.4px 258.4px 80.4px 258.4px;
+}
+
+.mainSectionThirdDepartment {
+    width: 100%;
+    display: flex;
+}
+
+.firstSectionThirdDepartment {
+    width: 296px;
+    transition: 0.2s linear;
+    padding: 32px 24px 20px 23.2px;
+    margin-right: 40px;
+}
+
+.iconThirdSection {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 20px;
+}
+
+.titleThirdDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 19.2px;
+    margin-bottom: 13.6px;
+}
+
+.textThirdDepartment {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 17.6px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.linksThirdDepartment {
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 10px;
+    color: #000000;
+}
+
+.firstSectionThirdDepartment:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.fourthDepartment {
+    padding: 80.4px 220px;
+    background: #FAFAFA;
+}
+
+.mainSectionFourthDepartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tetileFourthDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 15.2px;
+}
+
+.textFourthDepartment {
+    width: 545.6px;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    color: #666666;
+}
+
+.sectionWidthCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: .2s linear;
+    margin-top: 43.2px;
+}
+
+.card:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.cardImg {
+    width: 308px;
+    height: 231.2px;
+}
+
+.titleCard {
+    font-family: Gilroy-Bold;
+    font-size: 19.2px;
+    margin-top: 16.8px;
+}
+
+.textCard {
+    width: 248px;
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 17.6px;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 17.6px;
+}
+
+.buttomCard {
+    display: flex;
+    align-items: center;
+    background: #F25822;
+    border-radius: 50px;
+    padding: 12px 28.8px;
+    margin: 31.2px 0 40px 0;
+}
+
+.textButtom {
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 10.4px;
+    color: #FFFFFF;
+    margin-right: 4.8px;
+}
+
+.imgButtom {
+    height: 8px;
+}
+
+.fifthDepartment {
+    display: flex;
+    padding: 0 296px 0 0;
+}
+
+.imgFifthDepartment {
+    width: 960px;
+    height: 720px;
+}
+
+.secondSectionFifthDepartment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85.6px;
+}
+
+.titleFifthDepartment {
+    width: 500px;
+    font-family: Gilroy-Bold;
+    font-size: 39px;
+    margin-bottom: 15.2px;
+}
+
+.textFifthDepartment {
+    width: 445.6px;
+    font-family: Gilroy-Regular;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    color: #666666;
+    margin-bottom: 68.8px;
+}
+
+.cardFifthDepartment {
+    display: flex;
+    align-items: center;
+    transition: .2s linear;
+    padding: 19.2px 39.2px 20.8px 24px;
+    margin-bottom: 20px;
+}
+
+.cardFifthDepartment:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.iconFifthDepartment {
+    width: 80px;
+    height: 80px;
+}
+
+.infoCardFifthDepartment {
+    margin-left: 23.2px;
+}
+
+.titleCardFifthDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.textCardFifthDepartment {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 17.6px;
+    color: #666666;
 }
