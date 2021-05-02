@@ -277,6 +277,7 @@ header {
 .firstSectionThirdDepartment {
     width: 296px;
     transition: 0.2s linear;
+    cursor: pointer;
     padding: 32px 24px 20px 23.2px;
     margin-right: 40px;
 }
@@ -437,6 +438,7 @@ header {
     display: flex;
     align-items: center;
     transition: .2s linear;
+    cursor: pointer;
     padding: 19.2px 39.2px 20.8px 24px;
     margin-bottom: 20px;
 }
@@ -465,4 +467,128 @@ header {
     font-size: 12px;
     line-height: 17.6px;
     color: #666666;
+}
+
+.sixthDepartment {
+    padding: 80px 300px 33.6px 300px;
+}
+
+.mainSectionSixthDepartment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33.6px 52.8px;
+    border: 2px solid #EEEEEE;
+}
+
+.infoSixthDepartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbersSixthDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 56px;
+    line-height: 84px;
+    color: #666666;
+}
+
+.textSixthDepartment {
+    font-family: Gilroy-SemiBold;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    color: #666666;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #F3602D;
+}
+
+.circle2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #149211;
+}
+
+.circle3 {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #FFC700;
+}
+
+.seventhDepartment {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 250px
+}
+
+.titleSeventhDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+
+.textSeventhDepartment {
+    width: 366px;
+    font-family: Gilroy-Regular;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    color: #666666;
+    margin-bottom: 44px;
+}
+
+.urlInput {
+    width: 160px;
+    font-family: Gilroy-Medium;
+    font-size: 8.8px;
+    background: #EEEEEE;
+    border: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+    padding: 12.8px;
+}
+
+.emailInput {
+    width: 160px;
+    position: relative;
+    right: 5px;
+    font-family: Gilroy-Medium;
+    font-size: 8.8px;
+    background: #EEEEEE;
+    border: none;
+    outline: none;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 0 50px 50px 0;
+    padding: 12.8px;
+}
+
+.submitInput {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    font-family: Gilroy-Bold;
+    font-size: 10.4px;
+    color: #F25822;
+    background: rgba(242, 88, 34, 0.25);
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.25);
+    border-radius: 50px;
+    transition: .2s linear;
+    padding: 12px 38.4px;
+    margin-left: 32.4px;
+}
+
+.submitInput:hover {
+    color: #FFFFFF;
+    background: #F25822;
+}
+
+.imgSeventhDepartment {
+    width: 637px;
+    height: 446px;
 }
