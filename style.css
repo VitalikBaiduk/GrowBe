@@ -263,7 +263,7 @@ header {
 .mainSectionSecondDepartment {
     display: flex;
     align-items: center;
-    margin-left: 140px;
+    padding-left: 140px;
 }
 
 .thirdDepartment {
@@ -341,7 +341,7 @@ header {
 }
 
 .sectionWidthCard {
-    width: 100%;
+    width: 950px;
     display: flex;
     justify-content: space-between;
 }
@@ -719,7 +719,7 @@ header {
 
 .elementCardNinthDepartment:hover {
     box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
-    /* border: none; */
+    border: 1px solid #FFFFFF;
 }
 
 .imgCardNinthDepartment {
@@ -800,9 +800,9 @@ header {
 }
 
 .elementCardTenthDepartment:hover {
-    /* border: none; */
     opacity: 1;
     box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
 }
 
 .textCardTenthDepartment {
@@ -839,4 +839,180 @@ header {
     height: 6.4px;
     cursor: pointer;
     margin: 0 2px;
+}
+
+.eleventhDepartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 74px 0;
+}
+
+.titleEleventhDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.textEleventhDepartment {
+    width: 455px;
+    font-family: Gilroy-Regular;
+    font-size: 12.8px;
+    line-height: 19px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 44px;
+}
+
+.allCardEleventhDepartment {
+    display: flex;
+}
+
+.cardEleventhDepartment {
+    display: flex;
+    cursor: pointer;
+    border: 2px solid #EEEEEE;
+    transition: .2s linear;
+    padding: 0 24px 0 0;
+    margin: 0 15px;
+}
+
+.cardEleventhDepartment:hover {
+    box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
+}
+
+.sectionCardEleventhDepartment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.titleCardEleventhDepartment {
+    width: 260px;
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.logoCardEleventhDepartment {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.elemlogoCardEleventhDepartment {
+    display: flex;
+    align-items: center;
+}
+
+.textElemlogoCardEleventhDepartment {
+    font-family: Gilroy-Medium;
+    font-size: 10px;
+    color: #888888;
+    margin-left: 4px;
+}
+
+.textCardEleventhDepartment {
+    width: 272px;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666666;
+    margin-top: 17px;
+}
+
+.linkCardEleventhDepartment {
+    font-family: Gilroy-Bold;
+    font-size: 10px;
+    color: #F25822;
+    margin-top: 20px;
+}
+
+.imgEleventhDepartment {
+    height: 278px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #F3F3F3;
+    padding: 80px 230px 15px 300px;
+}
+
+.mainCestionFooter {
+    display: flex;
+}
+
+.firstElementFooter {
+    margin-right: 30px;
+}
+
+.textFirstElementFooter {
+    width: 214px;
+    font-family: Gilroy-Medium;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    margin: 32px 0 15px 0;
+}
+
+.titlesFirstElementFooter {
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.anotherElementFooter {
+    margin-right: 115px;
+}
+
+.listElementFooter {
+    margin-left: 17px;
+}
+
+li {
+    color: #F25822;
+}
+
+.listItemFooter {
+    font-family: Gilroy-SemiBold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.last {
+    margin: 0;
+}
+
+.textAnotherElementFooter {
+    font-family: Gilroy-SemiBold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.textWAB {
+    color: #333333;
+}
+
+.lineFooter {
+    width: 940px;
+    height: 1px;
+    border: 1px solid #CCCCCC;
+    margin: 40px 0 15px 0;
+}
+
+.lastTextFooter {
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 13px;
+    color: #888888;
 }
