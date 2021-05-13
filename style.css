@@ -867,6 +867,7 @@ header {
 
 .allCardEleventhDepartment {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .cardEleventhDepartment {
@@ -1015,4 +1016,72 @@ li {
     font-family: Gilroy-Medium;
     font-size: 13px;
     color: #888888;
+}
+
+
+/* Media */
+
+@media screen and (max-width:1024px) {
+    header {
+        padding: 32px 120px;
+    }
+    .firstDepartment {
+        margin: 0 20px;
+    }
+    .firstImgForBack {
+        right: 1120px;
+        bottom: 170px;
+    }
+    .mainSectionSecondDepartment {
+        display: flex;
+        align-items: center;
+        padding-left: 110px;
+    }
+    .secondDepartment {
+        width: 100%;
+    }
+    .thirdDepartment {
+        padding: 80px 20px 80px 20px;
+    }
+    .imgFifthDepartment {
+        width: 595px;
+        height: 504px;
+    }
+    .fifthDepartment {
+        align-items: center
+    }
+    .secondSectionFifthDepartment {
+        margin-top: 55px;
+    }
+    .titleFifthDepartment {
+        width: 500px;
+        font-family: Gilroy-Bold;
+        font-size: 33px;
+        margin-bottom: 15.2px;
+    }
+    .textFifthDepartment {
+        margin-bottom: 50px;
+    }
+    .cardFifthDepartment {
+        width: 85%;
+        padding: 19px 24px 21px 24px;
+    }
+    .sixthDepartment {
+        padding: 80px 20px 34px 20px;
+    }
+    .seventhDepartment {
+        padding: 0 16px 0 50px;
+    }
+    .submitInput {
+        margin: 0;
+    }
+    .eighthDepartment {
+        padding: 70px 20px;
+    }
+    .ninthDepartment {
+        padding: 70px 20px;
+    }
+    footer {
+        padding: 70px 20px 15px 20px;
+    }
 }
