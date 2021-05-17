@@ -96,7 +96,7 @@ header {
 .firstDepartment {
     display: flex;
     align-items: center;
-    margin: 40px 0 0 258.4px;
+    padding: 40px 0 0 258.4px;
 }
 
 .firstSectionFirstDepartment {
@@ -208,7 +208,6 @@ header {
 .sectionWidthLogo {
     display: flex;
     justify-content: center;
-    /* margin-top: 79.2px; */
     margin: 79.2px auto 0;
 }
 
@@ -1083,5 +1082,128 @@ li {
     }
     footer {
         padding: 70px 20px 15px 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        padding: 32px 50px;
+    }
+    .firstDepartment {
+        padding: 0;
+    }
+    .imgFirstDep {
+        width: 70%;
+    }
+    .firstDepartment {
+        overflow: hidden;
+        margin: 0;
+    }
+    .firstSectionFirstDepartment {
+        margin: 0;
+    }
+    .titleFirstDepartment {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .textFirstDepartment {
+        font-size: 14px;
+    }
+    .secondImgForBack {
+        right: 978px;
+        bottom: 55px;
+    }
+    .fourthImgForBack {
+        top: 86px;
+    }
+    .sectionWidthLogo {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .elemSectionWidthLogo {
+        margin-bottom: 10px;
+    }
+    .secondDepartment {
+        margin-top: 35px;
+    }
+    .mainSectionSecondDepartment {
+        padding: 0;
+        align-items: center;
+        overflow: hidden;
+    }
+    .titleSecondDepartment {
+        width: 250%;
+    }
+    .textSecondDepartment {
+        width: 235%;
+    }
+    .macbook {
+        width: 90%;
+        position: relative;
+        left: 100px;
+    }
+    .fourthDepartment {
+        padding: 40px 0;
+    }
+    .sectionWidthCard {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstCardFourthDepartment {
+        margin-right: 50px;
+    }
+    .imgFifthDepartment {
+        width: 90%;
+    }
+    .titleFifthDepartment {
+        width: 340px;
+        font-size: 27px;
+    }
+    .textFifthDepartment {
+        width: 300px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .cardFifthDepartment {
+        width: 340px;
+    }
+    .iconFifthDepartment {
+        width: 60px;
+    }
+    .seventhDepartment {
+        padding: 0;
+    }
+    .imgSeventhDepartment {
+        width: 60%;
+    }
+    form {
+        display: flex;
+        position: relative
+    }
+    .submitInput {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 45px;
+    }
+    .cardEighthDepartment {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstcardEighthDepartment {
+        margin-right: 40px;
+    }
+    .lasrCardEighthDepartment {
+        margin-top: 40px;
+    }
+    .ninthDepartment {
+        padding: 70px 0;
+    }
+    .anotherElementFooter {
+        margin-right: 100px;
+    }
+    .lineFooter {
+        width: 100%;
     }
 }
