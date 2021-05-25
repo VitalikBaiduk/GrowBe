@@ -259,19 +259,16 @@ header {
     height: 480px;
 }
 
-.mainSectionSecondDepartment {
+.secondDepartment {
     display: flex;
     align-items: center;
     padding-left: 140px;
 }
 
 .thirdDepartment {
-    padding: 80.4px 258.4px 80.4px 258.4px;
-}
-
-.mainSectionThirdDepartment {
     width: 100%;
     display: flex;
+    padding: 80.4px 258.4px 80.4px 258.4px;
 }
 
 .firstSectionThirdDepartment {
@@ -314,14 +311,11 @@ header {
 }
 
 .fourthDepartment {
-    padding: 80.4px 220px;
-    background: #FAFAFA;
-}
-
-.mainSectionFourthDepartment {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #FAFAFA;
+    padding: 80.4px 220px;
 }
 
 .tetileFourthDepartment {
@@ -1026,11 +1020,11 @@ li {
     }
     .firstDepartment {
         overflow: hidden;
-        padding: 0;
-        margin: 0;
+        padding: 0%;
+        margin: 0%;
     }
     .firstImgForBack {
-        right: 1120px;
+        right: 105%;
         bottom: 170px;
     }
     .mainSectionSecondDepartment {
@@ -1207,5 +1201,171 @@ li {
     }
     .lineFooter {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header {
+        padding: 0;
+    }
+    .headerMain {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .headerNav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .liHeaderNav {
+        margin: 10px 0 0 0;
+    }
+    .imgFirstDep {
+        display: none;
+    }
+    .firstDepartment {
+        margin: 40px 0 0 0;
+    }
+    .firstSectionFirstDepartment {
+        text-align: center;
+    }
+    .bottomFirstDepartment {
+        width: 100%;
+        justify-content: center;
+    }
+    .sectionWidthLogo {
+        margin-top: 20px;
+    }
+    .macbook {
+        display: none;
+    }
+    .titleSecondDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .textSecondDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .firstSectionSecondDepartment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondDepartment {
+        height: auto;
+        padding: 30px 0;
+    }
+    .mainSectionThirdDepartment {
+        flex-wrap: wrap;
+    }
+    .firstSectionThirdDepartment {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .thirdDepartment {
+        flex-wrap: wrap;
+        padding: 60px 20px 60px 20px;
+    }
+    .tetileFourthDepartment {
+        text-align: center;
+    }
+    .textFourthDepartment {
+        width: 100%;
+    }
+    .firstCardFourthDepartment {
+        margin-right: 0;
+    }
+    .imgFifthDepartment {
+        display: none;
+    }
+    .fifthDepartment {
+        padding: 0;
+    }
+    .titleFifthDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .textFifthDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .cardFifthDepartment {
+        width: 100%;
+    }
+    .sixthDepartment {
+        padding: 0;
+    }
+    .mainSectionSixthDepartment {
+        padding: 13px 0;
+    }
+    .textSixthDepartment {
+        text-align: center;
+    }
+    .infoSixthDepartment {
+        width: 75px;
+    }
+    .firstSectionSeventhDepartment {
+        margin-top: 20px;
+    }
+    .titleSeventhDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .textSeventhDepartment {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+    .imgSeventhDepartment {
+        display: none;
+    }
+    form {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .firstcardEighthDepartment {
+        margin: 0 0 40px 0;
+    }
+    .titleNinthDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .cardNinthDepartment {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .elementCardNinthDepartment {
+        margin-bottom: 40px;
+    }
+    .tenthDepartment {
+        padding: 0;
+    }
+    .textEleventhDepartment {
+        width: 100%;
+        text-align: center;
+    }
+    .anotherElementFooter {
+        margin-right: 23px;
+    }
+    .mainCestionFooter {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .firstElementFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+    .textFirstElementFooter {
+        text-align: center;
+    }
+    .thirdElementFooter {
+        margin: 0 0 20px 0;
+    }
+    .last {
+        margin: 0;
     }
 }
